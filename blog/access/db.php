@@ -1,8 +1,8 @@
 <?php
-    $unHote = "localhost";
-    $nomUtilisateurDB = "blogAvance";
-    $motDePasseUserDB = "20410953";
-    $nomDatabase = "blogavance";
+    $unHote = "";
+    $nomUtilisateurDB = "";
+    $motDePasseUserDB = "";
+    $nomDatabase = "";
 
  //Tester la bonne connection à la base
  $maConnection =    mysqli_connect($unHote, $nomUtilisateurDB, $motDePasseUserDB, $nomDatabase);
